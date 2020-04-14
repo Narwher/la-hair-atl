@@ -1,0 +1,186 @@
+<!--
+	Jay Harris (jharr313)
+	Web Development 1
+	Sherri Shade
+	Project - LA Hair (feedback.html)
+	21 April 2020
+-->
+
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<title> LA Hair | Feedback </title>
+
+		<link href="css/la_hair.css" rel="stylesheet" type="text/css">
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-length/4.7.0/css/font-length.min.css"> 
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"> 
+		
+		<!-- jQuery -->
+		 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header>
+				<img src="images/logo.png" width="500" height="236" alt="Logo" title="Logo"/>
+			</header>
+			
+			<div id="subHead">
+				<h2>Human Hair Extensions for All Nationalities <br/> 35+ Years Experience <br/> 100% Satisfaction Guaranteed!</h2>  
+			</div>
+			
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="consultations.html">Consultations</a></li>
+					<li><a href="colorchart.html">Color Chart</a></li>
+					<li><a href="faq.html">Frequently Asked Questions</a></li>
+					<li class="icons"><a href="tel:4042525644"><i class="fa fa-phone"></i> 404.252.5644</a></li>
+					<li class="icons"><a href="https://www.facebook.com/Iamthehairgenie"><i class="fa fa-facebook-square">acebook</i></a></li>
+				</ul>
+			</nav>
+
+			<main>
+				<h1>Feedback</h1> 
+				
+				<p align = "center">Let us know how we're doing!</p>
+				
+				<table width="80%" border="0" align="center" bgcolor="plum">
+					<tbody>				
+					<tr>
+						<td colspan = "3">   
+							<form action="http://www.formbuddy.com/cgi-bin/form.pl" method="post"> 
+								<input type="hidden" name="username" value="jharr313"> 
+								<input type="hidden" name="reqd" value=""> 
+								<input type="hidden" name="url" value="http://studentweb.kennesaw.edu/~jharr313/3260/project/index.html">
+								
+								<table width="100%" border="1" align="center">
+									<tbody>
+										<tr>
+											<td align="left" width="50%">First name:</td>
+											<td align="left"><input name="firstName" type="text" id="firstName" size="20" maxlength="20"></td>
+										</tr>
+								
+										<tr>
+											<td align="left">Last name:</td>
+											<td align="left"><input name="lastName" type="text" id="lastName" size="20" maxlength="20"></td>
+										</tr>
+										
+										<tr>
+											<td align="left" width="50%">Age:</td>
+											<td align="left"><input name="age" type="text" id="age" size="3" maxlength="3"></td>
+										</tr>
+										
+										<tr>
+											<td align="left" width="50%">Ethnicity: </td>
+											<td align="left"><input name="race" type="text" id="race" size="20" maxlength="20"></td>
+										</tr>
+		
+										<tr>
+											<td align="left">Email address:</td>
+											<td align="left"><input name="email" type="email" id="email" size="35"></td>
+										</tr>
+		
+										<tr>
+											<td align="left"> Gender: </td>
+												<td align="left"><select name="gender" required="required" id="gender">
+													<option value="None" selected="selected"> -- </option>
+													<option value="Man"> Man </option>
+													<option value="Woman"> Woman </option>
+													<option value="Other"> Other </option>
+													</select>
+												</td>
+										</tr>
+										
+										 <!-- <tr> <td colspan ="3"> &nbsp;</td></td> </tr> -->
+										
+										<tr align="left">
+											<td colspan="2"><h2 align="center">Questionnaire</h2></td>
+											<td colspan="2">&nbsp;</td>
+										</tr>
+										</tr>
+										
+										<tr>
+											<td align="left">What was the most well designed page?</td>
+											<td align="left"><select name="pageBest" id="pageBest">
+												<option value="None" selected = "selected"> -- </option>
+												<option value="Home">Home</option>
+												<option value="Servies">Services</option>
+												<option value="Consultations">Consultations</option>
+												<option value="ColorChart">Color Chart</option>
+												<option value="Faq">Frequently Asked Questions</option>
+												<option value="Credits">Credits</option>
+												<option value="Feedback">Feedback</option>
+												</select>
+											</td>
+										</tr>
+										
+										<tr>
+											<td align="left">Desired hair length</td>
+											<td align="left">
+											
+												<table width="200">
+													<tr>
+														<td><label>
+														<input type="radio" name="length" value="length_4" id="length_vshort">
+														Very Short</label></td>
+													</tr>
+											
+													<tr>
+														<td><label>
+														<input type="radio" name="length" value="length_3" id="length_short">
+														Short</label></td>
+													</tr>
+											
+													<tr>
+														<td><label>
+														<input type="radio" name="length" value="length_2" id="length_medium">
+														Medium Length</label></td>
+													</tr>
+												
+													<tr>
+														<td><label>
+														<input type="radio" name="length" value="length_1" id="length_long">
+														Long</label></td>
+													</tr>
+													
+													<tr>
+														<td><label>
+														<input type="radio" name="length" value="length_1" id="length_vlong">
+														Very Long</label></td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										
+										<tr>
+											<td align="left">Further comments:</td>
+											<td align="left"><textarea name="comments" maxlength="250" id="comments"></textarea></td>
+										</tr>
+		
+										<tr align="center">
+										  <td colspan = "2" ><input type="reset" name="reset" id="reset" value="Reset">        <input type="submit" name="submit" id="submit" value="Submit"></td>
+										</tr>								
+									</tbody>
+								</table>
+							</form> 
+						</td>
+					</tr>
+			</tbody>
+		</table>		
+			</main>
+		
+			<footer>
+				<p> Northside Tower, Suite 510 6065 Roswell Road NE Atlanta, GA 30328 <br />
+				Copyright &copy; 2020 LA Hair Extensions Atlanta <br />
+				<a href="sitemap.html">Sitemap</a> | <a href="feedback.html">Feedback</a> 
+			</footer>
+		</div>
+	</body>
+</html>
