@@ -1,0 +1,212 @@
+/*
+	Jay Harris (jharr313)
+	Web Development 1
+	Sherri Shade
+	Project - LA Hair Style Sheet (la_hair.css)
+	21 April 2020
+*/
+
+/* include */
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:wght@300&family=Comic+Neue:ital@1&display=swap');
+
+/*
+#862D63 dark purple  
+#C284AA lite purple
+#A45384 mid purple
+#681145 rlly dark purple
+#4A002D frickin dark purps
+*/
+
+.wrapper { /* This wrapper contains all of the content of the site */
+	width: 100%;
+	min-width: 20em;
+	margin: 0 auto;
+	padding: 0px;	
+}
+
+body {	
+	background-color: plum; /* page bg */
+}
+
+header {
+    background-color: #C284AA; 
+	text-align: center;
+	padding-top: 5px;
+	border-top: 2px solid #A45384;
+}
+
+header h1 {
+    font-family: 'Comic Neue', cursive;
+    font-size: 5em;
+    color: white;
+    text-shadow: 2px 2px black; 
+	margin:0;
+}
+
+nav {
+    text-align:center;
+	background-color: plum;
+	padding-bottom: 2px;
+	border-top: 2px solid #A45384;
+}
+
+nav ul {	
+	margin: 0px;
+	padding-right: 5px;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline;
+	padding:10px;
+}
+
+nav a {
+	font-family: 'Comic Neue', sans-serif;
+	color: #681145; 
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+.icons a:link {
+	color:#681145;
+	font-size:.95em;
+}
+
+.icons a:hover{
+	color:#A12C49;
+	background-color:plum;
+}
+
+main{
+	text-align:center;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding-top:0px;
+	padding-left:2px;
+	padding-right:2px;
+	padding-bottom: 2px;
+	border-top: 2px solid #A45384;
+}
+
+footer{
+	color: #4A002D;
+	text-align: center;
+	font-family: 'Comic Neue', sans-serif;
+	font-style: italic;
+	font-weight:bold;
+	font-size:.85em;
+	padding:5px;
+	background-color: #C284AA; 
+	border-top: 2px solid #A45384;
+	border-bottom: 2px solid #A45384;
+}
+
+footer a:link{
+	color:#681145;
+	}
+
+footer a:visited{
+	color:#681145;
+	}
+
+footer a:hover{
+    color:#A12C49;
+}
+
+p {
+    padding:0px;
+	font-size:1.5em;	
+}
+
+a:link {
+	color:#A45384;
+}
+
+a:hover {
+    color:#A12C49;
+}
+
+#subHead{
+    background-color:#C284AA;
+    color: #681145;
+    text-align:center;
+	font-family: 'Caveat', cursive;
+    font-size:1.25em;
+	padding:5px;
+	padding-bottom:50px;
+	margin:0;
+	height:100px;
+	
+}
+
+.center { 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+}
+
+.buttonContainer {
+    text-align:center;
+}
+
+.button {
+    background-color:#A45384;
+    color:plum;
+    padding: 12px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:link {
+	color:white;
+}
+
+.button:hover {
+	color:plum;
+	background-color:#681145;
+}
+
+.slideshow{
+	border-top: 2px solid black;
+	background-color:#ffe0d0;
+	width:100%;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+#sitemap {
+	text-align: left;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.smIndent {
+	padding-left:5em;
+}
+
+.servicesTable {
+	font-size:1em;
+	text-align: left;
+	padding-left: 15px;
+	padding-bottom:5px;
+}
+
+#appointmentTable {
+	width:90%; 
+	border:0;
+	align:center; 
+	cellpadding:0; 
+	cellspacing:0;
+}
