@@ -25,10 +25,6 @@
 	padding: 0px;	
 }
 
-body {	
-	background-color: plum; /* page bg */
-}
-
 header {
     background-color: #C284AA; 
 	text-align: center;
@@ -42,6 +38,18 @@ header h1 {
     color: white;
     text-shadow: 2px 2px black; 
 	margin:0;
+}
+
+#subHead{
+    background-color:#C284AA;
+    color: #681145;
+    text-align:center;
+	font-family: 'Caveat', cursive;
+    font-size:1.25em;
+	padding:5px;
+	padding-bottom:50px;
+	margin:0;
+	height:100px;
 }
 
 nav {
@@ -79,7 +87,11 @@ nav a {
 	background-color:plum;
 }
 
-main{
+body {	
+	background-color: plum; /* page bg */
+}
+
+main {
 	text-align:center;
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
@@ -90,7 +102,12 @@ main{
 	border-top: 2px solid #A45384;
 }
 
-footer{
+p {
+    padding:0px;
+	font-size:1.5em;	
+}
+
+footer {
 	color: #4A002D;
 	text-align: center;
 	font-family: 'Comic Neue', sans-serif;
@@ -115,30 +132,12 @@ footer a:hover{
     color:#A12C49;
 }
 
-p {
-    padding:0px;
-	font-size:1.5em;	
-}
-
 a:link {
 	color:#A45384;
 }
 
 a:hover {
     color:#A12C49;
-}
-
-#subHead{
-    background-color:#C284AA;
-    color: #681145;
-    text-align:center;
-	font-family: 'Caveat', cursive;
-    font-size:1.25em;
-	padding:5px;
-	padding-bottom:50px;
-	margin:0;
-	height:100px;
-	
 }
 
 .center { 
@@ -194,19 +193,4 @@ a:hover {
 
 .smIndent {
 	padding-left:5em;
-}
-
-.servicesTable {
-	font-size:1em;
-	text-align: left;
-	padding-left: 15px;
-	padding-bottom:5px;
-}
-
-#appointmentTable {
-	width:90%; 
-	border:0;
-	align:center; 
-	cellpadding:0; 
-	cellspacing:0;
 }
